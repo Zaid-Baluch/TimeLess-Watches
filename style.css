@@ -1,4 +1,5 @@
 body {
+  font-family: sans-serif;
 }
 
 nav {
@@ -6,6 +7,7 @@ nav {
   justify-content: space-between;
   background-color: rgba(30, 30, 63, 0.854);
   padding: 5px;
+  border-radius: 8px;
 }
 #input {
   float: left;
@@ -41,30 +43,29 @@ nav ul li a:hover {
 
 /* Section Started */
 img {
-  height: 480px;
-  width: 400px;
-  padding: 50px;
-  border-radius: 5px;
-  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 50px 5px;
+  height: 530px;
 }
 #main {
   background-color: #ebe9e9;
   display: flex;
   justify-content: center;
-  margin: 0;
-  padding: 0;
-  margin-inline: 0;
   gap: 0%;
 }
 #requirement {
   background-color: aliceblue;
   width: 400px;
-  margin: 50px;
-  padding: 10px;
-  align-items: center;
+  margin: 50px 5px;
+  padding: 15px;
+  border-radius: 10px;
 }
 del {
   color: rgb(116, 115, 115);
+}
+#watch {
+  font-size: 18px;
 }
 #button {
   background-color: rgba(30, 30, 63, 0.854);
@@ -76,6 +77,7 @@ del {
 #limited {
   background-color: #ebe9e9;
   border-radius: 5px;
+  text-align: center;
   padding: 5px;
 }
 #sign {
